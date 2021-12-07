@@ -1,10 +1,10 @@
 {
   "name": "yvi-react-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "bin": {
-    "react-webpack-app": "./bin/generate-app.js"
+    "yvi-react-js": "./bin/index.js"
   },
   "scripts": {
     "serve": "webpack serve --mode development",
