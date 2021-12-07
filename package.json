@@ -1,6 +1,6 @@
 {
-  "name": "react-webpack",
-  "version": "1.0.0",
+  "name": "yvi-react-js",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -34,6 +34,6 @@
     "webpack-dev-server": "^4.6.0"
   },
   "bin": {
-    "create-boilerplate": "./generate-app.js"
+    "create-boilerplate": "./bin/generate-app.js"
   }
 }
