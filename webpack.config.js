@@ -22,9 +22,15 @@ module.exports = ({ development }) => {
     module: {
       rules: [
         {
-          test: /\.(png|jpe?g|gif|svg)/i,
+          test: /\.(png|jpe?g|gif)/i,
           type: 'asset',
         },
+
+        {
+          test: /\.svg$/,
+          use: ['@svgr/webpack', 'url-loader'],
+        },
+
         {
           test: /\.(js|jsx)$/,
           exclude: /node_modules/,
